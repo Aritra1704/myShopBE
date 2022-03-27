@@ -15,6 +15,9 @@ public class OrderItemDto {
     private Long productId;
     private Long orderId;
     
+	public OrderItemDto() {
+		super();
+	}
 	public OrderItemDto(Long id, Long quantity, Long productId, Long orderId) {
 		super();
 		this.id = id;

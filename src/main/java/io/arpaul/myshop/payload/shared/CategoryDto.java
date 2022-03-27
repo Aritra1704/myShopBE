@@ -18,6 +18,9 @@ public class CategoryDto {
     private String description;
     private Set<ProductDto> products;
     
+	public CategoryDto() {
+		super();
+	}
 	public CategoryDto(Long id, String name, String description, Set<ProductDto> products) {
 		super();
 		this.id = id;

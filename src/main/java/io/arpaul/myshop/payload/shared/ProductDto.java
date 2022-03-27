@@ -23,6 +23,9 @@ public class ProductDto {
     private Set<ReviewDto> reviews;
     private CategoryDto category;
     
+	public ProductDto() {
+		super();
+	}
 	public ProductDto(Long id, String name, String description, BigDecimal price, Integer quantity, String status,
 			Integer salescounter, Set<ReviewDto> reviews, CategoryDto category) {
 		super();

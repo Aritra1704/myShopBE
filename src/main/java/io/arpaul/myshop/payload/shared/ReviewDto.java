@@ -15,6 +15,9 @@ public class ReviewDto {
     private String description;
     private Long rating;
     
+	public ReviewDto() {
+		super();
+	}
 	public ReviewDto(Long id, String title, String description, Long rating) {
 		super();
 		this.id = id;

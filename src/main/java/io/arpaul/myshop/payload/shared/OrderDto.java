@@ -22,6 +22,9 @@ public class OrderDto {
     private AddressDto shipmentAddress;
     private Set<OrderItemDto> orderItems;
     
+	public OrderDto() {
+		super();
+	}
 	public OrderDto(Long id, BigDecimal totalPrice, String status, ZonedDateTime shipped, PaymentDto payment,
 			AddressDto shipmentAddress, Set<OrderItemDto> orderItems) {
 		super();

@@ -17,6 +17,9 @@ public class CustomerDto {
     private String email;
     private String telephone;
     
+	public CustomerDto() {
+		super();
+	}
 	public CustomerDto(Long id, String firstName, String lastName, String email, String telephone) {
 		super();
 		this.id = id;

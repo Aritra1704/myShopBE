@@ -16,6 +16,9 @@ public class AddressDto {
     private String postcode;
     private String country;
     
+	public AddressDto() {
+		super();
+	}
 	public AddressDto(String address1, String address2, String city, String postcode, String country) {
 		super();
 		this.address1 = address1;

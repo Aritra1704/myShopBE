@@ -15,6 +15,9 @@ public class PaymentDto {
     private String status;
     private Long  orderid;
     
+	public PaymentDto() {
+		super();
+	}
 	public PaymentDto(Long id, String paymentId, String status, Long orderid) {
 		super();
 		this.id = id;
